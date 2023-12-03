@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/Titleimage.jpg">
+    <title>SpacePark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand">
+                <div>
+                <span class="display-6 webname">SpacePark</span>
+            </div></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar" style="background-color:hsl(26, 56%, 67%);"></span>
+            <span class="toggler-icon middle-bar "style="background-color:hsl(26, 56%, 67%) ;"></span>
+            <span class="toggler-icon bottom-bar "style="background-color:hsl(26, 56%, 67%) ; "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center col">
+              <li class="nav-item col">
+                <a class="nav-link text-light col display-6" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link text-light col display-6" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link text-light col display-6" aria-current="page" href="#contact">contact</a>
+              </li>
+        </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="ig" id="home">
+                <div class="back">
+                <p class="display-5 head" >Welcome To SpacePark</p>
+                <p class="display-6 para"><span>
+                    The webpage of
+                    Chandrayaan 3 – India's next step in lunar exploration. Chandrayaan 3 is a prestigious space mission undertaken by the
+                    Indian Space Research Organisation (ISRO), dedicated to unraveling the mysteries of the Moon and
+                    expanding our understanding of the universe. This webpage serves as your window into the
+                    exciting world of space exploration and the remarkable journey of Chandrayaan 3.
+                </span>
+
+                </p>
+                <p class="next"> <a class="next" href="#about" onclick="spacepark()">Explore It</a></p>
+
+            </div>
+            </div>
+    </div>
+
+     <!-- about -->
+    <div class="about" id="about">
+        <div class="">
+            <p class="display-5 abhead" >About</p>
+            <p class="abpara reveal display-6">
+                Chandrayaan 3 proudly carries forward the legacy of India's previous lunar missions, Chandrayaan 1 and
+                Chandrayaan 2.The insights gained from these missions have laid the groundwork for Chandrayaan 3's
+                ambitious endeavors,propelling us further into the realm of lunar exploration.
+                The Moon has fascinated humanity for centuries, and with Chandrayaan 3, we aim to delve deeper into its
+                secrets. Our mission is poised to contribute invaluable insights into lunar evolution, the presence of
+                water molecules, and the Moon's potential for supporting future space exploration endeavors.The Moon
+                holds secrets that can help us unlock the history of our solar system and understand planetary
+                evolution.Chandrayaan 3's scientific instruments are poised to analyze surface composition,study the
+                distribution of minerals, and detect water molecules in the lunar exosphere, offering a comprehensive
+                view of our celestial neighbor.
+            </p>
+           <div class="link">
+            <p class="text-center link"><i class="fas fa-rocket"></i><a href="Journey.html" class="link" onclick="alt()">Our Journey</a></p><br>
+
+            <p class="text-center link"><i class="fas fa-rocket"></i><a href="Mission.html" class="link">Our Mission</a></p><br>
+
+            <p class="text-center link vis"><i class="fas fa-rocket"></i><a href="Vision.html" class="link">Our Vision</a></p><br>
+           </div>
+            <!-- <p class="h3 container bg-transparent text-lght-emphasis text-bglight"
+                style="color: rgb(171, 180, 189);margin-left:4em"><a href="#" id="glow" onclick="alt()"><i class="fas fa-rocket"></i>Key Features of
+                    Chandrayaan 3</a></p><br>
+            <p class="h3 container bg-transparent text-lght-emphasis text-bglight"
+                style="color: rgb(171, 180, 189);margin-left:4em"><a href="#" id="glow" onclick="alt()"><i class="fas fa-rocket"></i>Our Vision</a>
+            </p><br>
+            </p> -->
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- about -->
+
+       <!-- contact -->
+       <div class="contact">
+           <div id="contact">
+               <div class="contact-right" style="margin-top: 0.1em;">
+                   <form name="submit-to-google-sheet" class="form-inline">
+                       <label><span class="display-5 cont-head" id="contact">Contact us:</span>
+                       </label>
+                       <p class="display-6 cont-text">If you're interested in joining us or if you
+                           have any questions, please feel free to get in touch with us.</p>
+                       <div class="form-group">
+                           <ceter><input name="Name" id="nam"
+                                   class="container form-control placeholder col-12 bg-light text-capitalize" type="text"
+                                   placeholder="Your Name" style="margin-bottom:4px;">
+                               <input name="Email" id="nam" class="container form-control placeholder col-12 bg-light"
+                                   type="email" placeholder="Your Email" style="margin-bottom:4px;">
+                               <textarea name="Message" id="nam" class="container form-control placeholder col-12 bg-light"
+                                   rows="6" placeholder="Enter your msg"></textarea>
+                               <div class="container bg-transparent">
+                                   <button type="submit" class="btn" id="btn">Send</button>
+                               </div>
+                       </div>
+                       </center>
+                   </form>
+                   <span id="msg"></span>
+               </div>
+           </div>
+       </div>
+       <!-- contact -->
+       <!-- copy right -->
+       <div>
+           <footer class="footer-copyright text-center py-2 py-xxl-3" style="background-color:rgb(24, 42, 80);">
+               <span class="bg-transparent" style="color:hsl(26, 47%, 38%);">&copy; Copyright ownership by Naveen</span>
+           </footer>
+       </div>
+       <!-- copyright -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
